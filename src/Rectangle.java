@@ -50,18 +50,6 @@ public class Rectangle {
         return 2 * (this.getLength() + this.getWidth());
     }
 
-    public double getDiagonal(){
-        return Math.sqrt(this.getLength() * this.getLength()+ this.getWidth() * this.getWidth());
-    }
-
-    public double getRadiusOfCircumscribedCircle() {
-        return Math.sqrt(this.getLength() * this.getLength()+ this.getWidth() * this.getWidth())/2;
-    }
-
-    public boolean isSquare() {
-        return this.getLength() == this.getWidth();
-    }
-
     @Override
     public String toString() {
         return "Rectangle{" +

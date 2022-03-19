@@ -59,5 +59,5 @@ public class Monitor extends Rectangle {
                 ", resolution=" + resolution +
                 '}';
     }
-    
+
 }
